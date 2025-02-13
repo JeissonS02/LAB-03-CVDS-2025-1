@@ -41,6 +41,8 @@ archetypeArtifactId: maven-archetype-quickstart
   <maven.compiler.source>1.8</maven.compiler.source>
 </properties>
 ```
+![image](https://github.com/user-attachments/assets/14776067-aa6f-4746-8bb2-50db294b1cc9)
+
 - Compile el proyecto para validar que todo este bien.
 
   ![image](https://github.com/user-attachments/assets/fce3bd8f-cd7f-436f-8836-4f687a4c4e08)
@@ -110,6 +112,8 @@ public class Book {
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/435e23fa-e309-47b1-b638-7f2afde5f523)
+
 A continuación en el paquete ```edu.eci.cvds.tdd.library.user``` cree la siguiente clase:
 ```java
 package edu.eci.cvds.tdd.library.user;
@@ -135,6 +139,8 @@ public class User {
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/ec144603-1d90-4a00-b714-725006a4af22)
+
 En el paquete ```edu.eci.cvds.tdd.library.loan``` se deben crear las clases Loan y el enum LoanStatus:
 ```java
 package edu.eci.cvds.tdd.library.loan;
@@ -199,6 +205,10 @@ public enum LoanStatus {
     ACTIVE, RETURNED
 }
 ```
+
+![image](https://github.com/user-attachments/assets/e2f01def-4488-4901-9e61-88c3f6f668d2)
+![image](https://github.com/user-attachments/assets/bd72e722-dc7d-46c4-87e1-06acce56a648)
+
 por último se debe crear la siguiente clase en el paquete ```edu.eci.cvds.tdd.library```
 
 ```java
@@ -281,6 +291,9 @@ public class Library {
 
 }
 ```
+
+![image](https://github.com/user-attachments/assets/4e49e0f5-07b8-49d2-b4d5-c4b93e497ddc)
+
 Para validar que la estructura del proyecto está bien se debe compilar usando el comando ```package```.
 
 ## PRUEBAS UNITARIAS Y TDD
