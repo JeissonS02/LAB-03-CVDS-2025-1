@@ -300,8 +300,23 @@ Para validar que la estructura del proyecto está bien se debe compilar usando e
 Para poder implementar los métodos ```addBook, loanABook y returnLoan``` de la clase ```Library``` vamos a aplicar la técnica de TDD, por cada caso de prueba se debe hacer un commit, cada commit debe tener la prueba nueva y la implementación para que la prueba del commit funcione. Las pruebas anteriormente implementadas deben continuar funcionando.
 Como están trabajando en parejas es necesario trabajar en ramas independientes y utilizar Pull Request para mezclar los cambios.
 
+
+![image](https://github.com/user-attachments/assets/7b57a25b-24ce-4d15-b3ae-a0fd401beb4a)
+
+![image](https://github.com/user-attachments/assets/2756de43-b3a0-473b-a1ea-b77bc97d7549)
+
+![image](https://github.com/user-attachments/assets/a9683ac4-69c7-40b3-9465-0bdf268568eb)
+
+
+![image](https://github.com/user-attachments/assets/cfb281fd-56d5-4319-9559-64cd8f0060e5)
+
+
 ### CREAR CLASE DE PRUEBA
 Es necesario crear la clase de prueba para ```edu.eci.cvds.tdd.Library```, la clase debe seguir los estándares de nombres estudiados en clase.
+
+
+![image](https://github.com/user-attachments/assets/131ec78f-09d1-4cf8-9aaf-a4f953548494)
+
 
 Para pensar en los casos de pruebas lean detenidamente el javadoc de los métodos para reconocer las clases de equivalencia, basados en las clases de equivalencia se debe crear una prueba la cual debe fallar y posteriormente implementar el código necesario para que funcione, este proceso se debe repetir hasta cumplir con la especificación definida en el javadoc.
 
