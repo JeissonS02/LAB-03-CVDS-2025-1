@@ -42,12 +42,19 @@ archetypeArtifactId: maven-archetype-quickstart
 </properties>
 ```
 - Compile el proyecto para validar que todo este bien.
+
+  ![image](https://github.com/user-attachments/assets/fce3bd8f-cd7f-436f-8836-4f687a4c4e08)
+
 ### AGREGAR ESQUELETO DEL PROYECTO
 Cree los siguientes paquetes dentro de ```edu.eci.cvds.tdd```
 - library
   - book
   - loan
   - user
+    ![image](https://github.com/user-attachments/assets/e808c90a-85e4-47f1-bab1-d68251d65dbb)
+    ![image](https://github.com/user-attachments/assets/dae77397-ad8c-44d8-bd37-87dcc2647950)
+
+
 
 Estos paquetes también se deben crear en la carpeta de test.
 ```sh
@@ -66,6 +73,8 @@ Estos paquetes también se deben crear en la carpeta de test.
 │             └───user
 │ App.java
 ```
+![image](https://github.com/user-attachments/assets/4b580e89-5fdd-4bce-a3e4-6787b191dedd)
+![image](https://github.com/user-attachments/assets/3ab11292-0a6e-44e1-bd85-324017e7994f)
 
 ### AGREGAR CLASES 
 En el paquete ```edu.eci.cvds.tdd.library.book``` cree la siguiente clase:
