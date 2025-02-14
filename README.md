@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # LABORATORIO 3 - TDDa
+=======
+# LABORATORIO 3 - TDD
+>>>>>>> fd9bde1c3bcffc1bc12c91254b778a0427c4478c
 
 #### TALLER 3
 #### JEISSON SANCHEZ
@@ -41,13 +45,29 @@ archetypeArtifactId: maven-archetype-quickstart
   <maven.compiler.source>1.8</maven.compiler.source>
 </properties>
 ```
+<<<<<<< HEAD
 - Compile el proyecto para validar que todo este bien.
+=======
+![image](https://github.com/user-attachments/assets/14776067-aa6f-4746-8bb2-50db294b1cc9)
+
+- Compile el proyecto para validar que todo este bien.
+
+  ![image](https://github.com/user-attachments/assets/fce3bd8f-cd7f-436f-8836-4f687a4c4e08)
+
+>>>>>>> fd9bde1c3bcffc1bc12c91254b778a0427c4478c
 ### AGREGAR ESQUELETO DEL PROYECTO
 Cree los siguientes paquetes dentro de ```edu.eci.cvds.tdd```
 - library
   - book
   - loan
   - user
+<<<<<<< HEAD
+=======
+    ![image](https://github.com/user-attachments/assets/e808c90a-85e4-47f1-bab1-d68251d65dbb)
+    ![image](https://github.com/user-attachments/assets/dae77397-ad8c-44d8-bd37-87dcc2647950)
+
+
+>>>>>>> fd9bde1c3bcffc1bc12c91254b778a0427c4478c
 
 Estos paquetes también se deben crear en la carpeta de test.
 ```sh
@@ -66,6 +86,11 @@ Estos paquetes también se deben crear en la carpeta de test.
 │             └───user
 │ App.java
 ```
+<<<<<<< HEAD
+=======
+![image](https://github.com/user-attachments/assets/4b580e89-5fdd-4bce-a3e4-6787b191dedd)
+![image](https://github.com/user-attachments/assets/3ab11292-0a6e-44e1-bd85-324017e7994f)
+>>>>>>> fd9bde1c3bcffc1bc12c91254b778a0427c4478c
 
 ### AGREGAR CLASES 
 En el paquete ```edu.eci.cvds.tdd.library.book``` cree la siguiente clase:
@@ -101,6 +126,11 @@ public class Book {
     }
 }
 ```
+<<<<<<< HEAD
+=======
+![image](https://github.com/user-attachments/assets/435e23fa-e309-47b1-b638-7f2afde5f523)
+
+>>>>>>> fd9bde1c3bcffc1bc12c91254b778a0427c4478c
 A continuación en el paquete ```edu.eci.cvds.tdd.library.user``` cree la siguiente clase:
 ```java
 package edu.eci.cvds.tdd.library.user;
@@ -126,6 +156,11 @@ public class User {
     }
 }
 ```
+<<<<<<< HEAD
+=======
+![image](https://github.com/user-attachments/assets/ec144603-1d90-4a00-b714-725006a4af22)
+
+>>>>>>> fd9bde1c3bcffc1bc12c91254b778a0427c4478c
 En el paquete ```edu.eci.cvds.tdd.library.loan``` se deben crear las clases Loan y el enum LoanStatus:
 ```java
 package edu.eci.cvds.tdd.library.loan;
@@ -190,6 +225,13 @@ public enum LoanStatus {
     ACTIVE, RETURNED
 }
 ```
+<<<<<<< HEAD
+=======
+
+![image](https://github.com/user-attachments/assets/e2f01def-4488-4901-9e61-88c3f6f668d2)
+![image](https://github.com/user-attachments/assets/bd72e722-dc7d-46c4-87e1-06acce56a648)
+
+>>>>>>> fd9bde1c3bcffc1bc12c91254b778a0427c4478c
 por último se debe crear la siguiente clase en el paquete ```edu.eci.cvds.tdd.library```
 
 ```java
@@ -272,15 +314,42 @@ public class Library {
 
 }
 ```
+<<<<<<< HEAD
+=======
+
+![image](https://github.com/user-attachments/assets/4e49e0f5-07b8-49d2-b4d5-c4b93e497ddc)
+
+>>>>>>> fd9bde1c3bcffc1bc12c91254b778a0427c4478c
 Para validar que la estructura del proyecto está bien se debe compilar usando el comando ```package```.
 
 ## PRUEBAS UNITARIAS Y TDD
 Para poder implementar los métodos ```addBook, loanABook y returnLoan``` de la clase ```Library``` vamos a aplicar la técnica de TDD, por cada caso de prueba se debe hacer un commit, cada commit debe tener la prueba nueva y la implementación para que la prueba del commit funcione. Las pruebas anteriormente implementadas deben continuar funcionando.
 Como están trabajando en parejas es necesario trabajar en ramas independientes y utilizar Pull Request para mezclar los cambios.
 
+<<<<<<< HEAD
 ### CREAR CLASE DE PRUEBA
 Es necesario crear la clase de prueba para ```edu.eci.cvds.tdd.Library```, la clase debe seguir los estándares de nombres estudiados en clase.
 
+=======
+
+![image](https://github.com/user-attachments/assets/7b57a25b-24ce-4d15-b3ae-a0fd401beb4a)
+
+![image](https://github.com/user-attachments/assets/2756de43-b3a0-473b-a1ea-b77bc97d7549)
+
+![image](https://github.com/user-attachments/assets/a9683ac4-69c7-40b3-9465-0bdf268568eb)
+
+
+![image](https://github.com/user-attachments/assets/cfb281fd-56d5-4319-9559-64cd8f0060e5)
+
+
+### CREAR CLASE DE PRUEBA
+Es necesario crear la clase de prueba para ```edu.eci.cvds.tdd.Library```, la clase debe seguir los estándares de nombres estudiados en clase.
+
+
+![image](https://github.com/user-attachments/assets/131ec78f-09d1-4cf8-9aaf-a4f953548494)
+
+
+>>>>>>> fd9bde1c3bcffc1bc12c91254b778a0427c4478c
 Para pensar en los casos de pruebas lean detenidamente el javadoc de los métodos para reconocer las clases de equivalencia, basados en las clases de equivalencia se debe crear una prueba la cual debe fallar y posteriormente implementar el código necesario para que funcione, este proceso se debe repetir hasta cumplir con la especificación definida en el javadoc.
 
 ### COBERTURA
