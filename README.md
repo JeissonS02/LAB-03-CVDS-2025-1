@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# LABORATORIO 3 - TDDa
-=======
+
 # LABORATORIO 3 - TDD
->>>>>>> fd9bde1c3bcffc1bc12c91254b778a0427c4478c
 
 #### TALLER 3
 #### JEISSON SANCHEZ
